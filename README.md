@@ -2,7 +2,7 @@
 
 > 基于 [Cloudflare Workers](https://workers.cloudflare.com/) 的域名到期监控系统。  
 > 本仓库为独立维护分支，源自社区版 Domain-AutoCheck，已大量重构并新增功能，**不再与上游同步维护**。  
-> 仓库地址：[cf-fork-div/domain-autocheck](https://github.com/cf-fork-div/domain-autocheck)
+> 仓库地址：[jia0327/domain-autocheck](https://github.com/jia0327/domain-autocheck)
 
 <details>
     <summary>更新日志</summary>
@@ -130,13 +130,13 @@
 
 ### 第一步：Fork 或 Clone 本仓库
 
-Fork：[cf-fork-div/domain-autocheck](https://github.com/cf-fork-div/domain-autocheck)
+Fork：[jia0327/domain-autocheck](https://github.com/jia0327/domain-autocheck)
 
 ### 第二步：连接 Cloudflare Workers
 
 [![Deploy with Cloudflare](https://img.shields.io/badge/Cloudflare-部署到_Workers-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)](https://dash.cloudflare.com/?to=/:account/workers-and-pages/create)
 
-选择 GitHub 仓库 `cf-fork-div/domain-autocheck` 部署。Cloudflare 会自动创建并绑定 `DOMAIN_MONITOR` KV。
+选择 GitHub 仓库 `jia0327/domain-autocheck` 部署。Cloudflare 会自动创建并绑定 `DOMAIN_MONITOR` KV。
 
 ### 第三步：环境变量
 
@@ -158,7 +158,7 @@ Workers → Triggers → Cron Triggers 添加定时任务。
 4. 绑定自定义域名（可选）
 
 ```bash
-git clone https://github.com/cf-fork-div/domain-autocheck.git
+git clone https://github.com/jia0327/domain-autocheck.git
 cd domain-autocheck
 npm install
 npm run deploy   # 需已配置 wrangler 与 KV
@@ -193,8 +193,8 @@ npm test         # 运行单元测试
 
 ## 📜 与上游的关系
 
-本项目最初 fork 自社区 [Domain-AutoCheck](https://github.com/jy02739244/Domain-AutoCheck) 生态，当前由 [cf-fork-div/domain-autocheck](https://github.com/cf-fork-div/domain-autocheck) **独立演进**，功能与代码结构已显著不同，请勿依赖上游 Sync fork。
+本项目最初 fork 自社区 [Domain-AutoCheck](https://github.com/jy02739244/Domain-AutoCheck) 生态，当前由 [jia0327/domain-autocheck](https://github.com/jia0327/domain-autocheck) **独立演进**，功能与代码结构已显著不同，请勿依赖上游 Sync fork。
 
 ## ⭐ Star
 
-![Star History](https://api.star-history.com/svg?repos=cf-fork-div/domain-autocheck&type=Date)
+![Star History](https://api.star-history.com/svg?repos=jia0327/domain-autocheck&type=Date)

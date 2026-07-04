@@ -66,10 +66,10 @@ const ICONFONT_CSS = '//at.alicdn.com/t/c/font_4973034_1qunj5fctpb.css';
 const ICONFONT_JS = '//at.alicdn.com/t/c/font_4973034_1qunj5fctpb.js';
 
 // 网站图标和背景图片
-const DEFAULT_LOGO = 'https://cdn.jsdelivr.net/gh/cf-fork-div/domain-autocheck@main/img/logo.png'; // 默认logo，外置变量为LOGO_URL
-const DEFAULT_BACKGROUND = 'https://cdn.jsdelivr.net/gh/cf-fork-div/domain-autocheck@main/img/background.png'; // 默认背景，外置变量为BACKGROUND_URL
-const DEFAULT_MOBILE_BACKGROUND = 'https://cdn.jsdelivr.net/gh/cf-fork-div/domain-autocheck@main/img/mobile.webp'; // 默认移动端背景，外置变量为MOBILE_BACKGROUND_URL
-const GITHUB_REPO_URL = 'https://github.com/cf-fork-div/domain-autocheck';
+const DEFAULT_LOGO = 'https://cdn.jsdelivr.net/gh/jia0327/domain-autocheck@main/img/logo.png'; // 默认logo，外置变量为LOGO_URL
+const DEFAULT_BACKGROUND = 'https://cdn.jsdelivr.net/gh/jia0327/domain-autocheck@main/img/background.png'; // 默认背景，外置变量为BACKGROUND_URL
+const DEFAULT_MOBILE_BACKGROUND = 'https://cdn.jsdelivr.net/gh/jia0327/domain-autocheck@main/img/mobile.webp'; // 默认移动端背景，外置变量为MOBILE_BACKGROUND_URL
+const GITHUB_REPO_URL = 'https://github.com/jia0327/domain-autocheck';
 
 // 登录密码设置
 const DEFAULT_TOKEN = ''; // 默认密码，留空则使用'domain'，外置变量为TOKEN
